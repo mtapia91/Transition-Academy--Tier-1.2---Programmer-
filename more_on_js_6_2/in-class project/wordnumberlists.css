@@ -1,0 +1,27 @@
+title {
+    text-align: center;
+}
+
+body {
+    background-color: #66B032;
+
+}
+
+.thisFlexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* split into three equal columns */
+.thisFlexboxColumn {
+    display: flex;
+    background-color: #EBF7E3;
+    flex: 40% 20% 20%;
+    padding: 20px;
+    flex-direction: column;
+}
+/* Media query - on screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+      flex-direction: column;
+    }
+}

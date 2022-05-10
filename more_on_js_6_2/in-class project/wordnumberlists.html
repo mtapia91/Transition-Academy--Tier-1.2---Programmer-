@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-Class Exercise Week 6, Day 2</title>
+
+    <link rel="stylesheet" href="wordnumberlists.css">
+    <script src="wordnumberlists.js"></script>
+</head>
+<body>
+    <h2>List Builder</h2>
+    <h4>Form to obtain word and number</h4>
+    <div class="thisFlexboxRow">
+        <div class="thisFlexboxColumn">
+            <form name="myForm">
+                Please enter a word: <input type="text" name="newWord" value=""><br />
+                Please enter 1 or 2: <input type="number" name="newNumber" value=""><br /> <br />
+                <input type="button" value="Submit your entries" onclick="validateANDAdd()">
+    </form>
+    </div>
+    <div class="thisFlexboxColumn">
+            <h1>List 1</h1>
+            <table id="thisList1">
+            </table>
+            <br/><br/>
+            <input type="button" style="height:21px; width:130.84px" value="Clear List 1" onclick="deleteList1()">
+    </div>
+    <div class="thisFlexboxColumn">
+            <h1>List 2</h1>
+            <table id="thisList2">
+            </table>
+            <br/><br/>
+            <input type="button" style="height:21px; width:130.84px" value="Clear List 2" onclick="deleteList2()">
+        </div>
+    </div>
+</body>

@@ -1,0 +1,29 @@
+body {
+    color: #E7F3EF;
+    text-align: center;
+}
+
+h2 {
+    color: #79BEA8;
+    text-align: center;
+}
+
+h4 {
+    color: #448D76;
+    text-align: center;
+}
+
+.thisFlexboxRow {
+    color: #23483C;
+    text-align: center;
+}
+
+.thisFlexboxColumn {
+    color: #093426;
+    text-align: center;
+}
+
+.myForm {
+    color: #448D76;
+    text-align: center;
+}

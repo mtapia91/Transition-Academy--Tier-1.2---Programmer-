@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sour Beer Survey</title>
+
+    <link rel="stylesheet" href="survey.css">
+
+    <script src="survey.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+        <h1 id="title" class="text-center">BEST SOUR BEERS YOU HAVE TRIED</h1>
+        <p id="description" class="description text-center">
+            Would love to know about the sour beers you have tried!
+        </p>
+        </header>
+        <hr>
+        <hr>
+        <form id="survery-form" onsubmit="jstestFunction()">
+            <div class="form group">
+                <label for="sourname">What was the name of the sour? </label>
+                    <input type="text" name="sourname" placeholder="Enter Name Here" required/>
+                <br>
+                <br>
+
+                <label for="brewery">Please enter the brewery name? </label>
+                    <input type="text" name="brewery" placeholder="Enter Name Here" required/>
+                <br>
+                <br>
+
+                <label for="tartness">How tart was the beer? </label>
+                <select name="tartness" id="tart">
+                    <option value="not tart">Not tart</option>
+                    <option value="little tart">Little tart</option>
+                    <option value="moderately tart">Moderately tart</option>
+                    <option value="pretty friggin tart">Pretty friggin tart</option>
+                    <option value="holycow">HOLY COW! That's wicked tart!</option>
+                </select>
+                <br>
+                <br>
+                
+                <label for="abv">What is the ABV (alcohol by volume) of the beer?</label>
+                <br>
+                    <input type="radio" id="css" name="abv" value="lessthan3percent">
+                    <label for="abvOpt1">less than 3.0% </label>
+                    <br>
+                    <input type="radio" id="css" name="abv" value="3-7percent">
+                    <label for="abvOpt2">3.0 - 7.0% </label>
+                    <br>
+                    <input type="radio" id="css" name="abv" value="morethan7percent">
+                    <label for="abvOpt3">7.0% or more</label>
+                    <br>
+                    <input type="radio" id="css" name="abv" value="unsure">
+                    <label for="abvOpt4">Unsure</label>
+                    <br>
+                <br>
+
+                <label for="beerStyle">What beer style is this sour?</label>
+                    <br>
+                    <input type="checkbox" name="beerstyle" value="americanWildAle">
+                    <label for="styleOpt1">American Wild Ale</label>
+                    <br>
+                    <input type="checkbox" name="beerstyle" value="berlinerWeisse">
+                    <label for="styleOpt2">Berline Weisse</label>
+                    <br>
+                    <input type="checkbox" name="beerstyle" value="flandersRedAle">
+                    <label for="styleOpt3">Flanders Red Ale</label>
+                    <br>
+                    <input type="checkbox" name="beerstyle" value="gose">
+                    <label for="styleOpt4">Gose</label>
+                    <br>
+                    <input type="checkbox" name="beerstyle" value="lambic">
+                    <label for="styleOpt5">Lambic</label>
+                    <br>
+                    <input type="checkbox" name="beerstyle" value="oudBruin">
+                    <label for="styleOpt6">Oud Bruin</label>
+                    <br>
+                    <br>
+                    
+                    <div class="form-group"> 
+                        <button type="submit" id="submit" class="submit-button">Submit your responses.</button>
+                    </div>
+                </label>
+            </div>
+        </form>    
+    </div>
+</body>
+</html>
