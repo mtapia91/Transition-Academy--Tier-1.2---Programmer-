@@ -7,23 +7,20 @@ function validateANDAdd() {
         alert ("Please enter a word");
         return false;
     }
-
-    else {
-        //word will be added to running list
-        if () {
-            var tableRef = document.getElementById("thisList1");
-            (tableRef.insertRow(tableRef.rows.length)).innerHTML = theNewWord;
-        }
-        else {
-            var tableRef = document.getElementById("thisList2");
-            (tableRef.insertRow(tableRef.rows.length)).innerHTML = theNewWord;
-        }
+    //validates that a 1 or a 2 is entered; anything else will give them an alert message
+    else if (theNewWord != "") {    
+        //1 or 2 were not entered; let user know
+        alert ("Please enter 1 or 2");
+        document.forms["myForm"]["newNumber"].value = " ";
+        let addWord = theNewWord;
+        theNewWord = (<HTMLInputElement>(addWord.insertRow(addWord.rows.length))).innerHTML;
+        return false;
+    }
         //erase form fields
         document.forms["myForm"]["newWord"].value = " ";
         document.forms["myForm"]["newNumber"].value = " ";
         return true;
-        }
-    }
+}
 
 function deleteToDoList() {
     //clear table of all rows
