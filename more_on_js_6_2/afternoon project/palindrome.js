@@ -19,12 +19,13 @@ function checkPalindrome() {
         //when a word and 1 or 2 are submitted
         //it will then add word entry to its corresponding list
         if (theNewNumber==1) {
-            var tableRef = document.getElementById("thisList1");
-            (tableRef.insertRow(tableRef.rows.length)).innerHTML = theNewPalindrome;
+            var checkPalindrome = document.getElementById("thisList1");
+            checkPalindrome = palindromeEntry.split
+            (newPalindrome.insertRow(newPalindrome.rows.length)).innerHTML = theNewPalindrome;
         }
         else {
-            var tableRef = document.getElementById("thisList2");
-            (tableRef.insertRow(tableRef.rows.length)).innerHTML = theNewPalindrome;
+            var newPalindrome = document.getElementById("thisList2");
+            (newPalindrome.insertRow(newPalindrome.rows.length)).innerHTML = theNewPalindrome;
         }
         //erase form fields
         document.forms["myForm"]["newPalindrome"].value = " ";
@@ -38,7 +39,7 @@ function checkPalindrome() {
         var clearList1 = document.getElementById("thisList1");
         clearList1.innerHTML = " ";
     }
-    
+
     function deleteList2() {
         //clear table of all rows
         var clearList2 = document.getElementById("thisList2");

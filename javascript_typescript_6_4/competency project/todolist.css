@@ -1,0 +1,31 @@
+.flexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstFlexboxColumn {
+    display: flex;
+    background-color: #EBF7E3;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.firstFlexboxColumn {
+    display: flex;
+    background-color: #EBF7E3;
+    flex: auto;
+    flex-direction: column;
+}
+
+.secondFlexboxColumn {
+    display: flex;
+    flex: auto;
+    padding: 20px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+      flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <meta name="project" content="Week 6 Day 5 Competency Project">
+
+    <link rel="stylesheet" href="todolist.css">
+
+    <script src="todolist.js"></script>
+
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+        <h4>You will be able to add, delete, and clear items from your list.</h4>
+        <div class="flexboxRow"><!-- This will create one row for box -->
+            <div class="firstFlexboxColumn"><!-- This initial column will request input -->
+                <form name="addToListForm">
+                    Please add an item to your to-do list: 
+                    <input type="text" id="userEntry" name="addToList" value="" required/>
+                    <input type="submit" value="submit">
+                </form>
+            <div class="secondFlexboxColumn">
+                <form name="wordList">
+                    <h3>Added to To Do List</h3>
+                    <table id="runningList">
+                    </table>
+                    <br/>
+                </form>
+            </div>
+                <input type="button" value="Clear Running List" onclick="deleteToDoList();">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Afternoon/In-Class Exercise Week 6, Day 3</title>
+
+    <link rel = "stylesheet" href = "mean_median_mode.css">
+    <script src = "mean_median_mode.js"></script>
+</head>
+<body>
+<h1> Mean, Median, Mode</h1>
+<hr>
+<hr>
+<h3>Make a selection and enter a number</h3>
+    <div class = "userSelection">
+        <form userSelection>
+            <input type = "radio" id = "Mean" name = "mean_function" value = "mean" onselect="">Mean 
+            <input type = "radio" id = "Median" name = "median_function" value = "median">Median
+            <input type = "radio" id = "Mode" name = "mode_function" value = "mode">Mode
+            <br><label for = "requestForNumbers">Please enter a number in each field below: </label><br>
+            <form name="userEntry">
+                    Highest value number:<input type = "number" id = "highestNumber" name = "userNumber1" min = "1" max = " "><br>
+                    Lowest value number:<input type = "number" id = "lowestNumber" name = "userNumber2" min = "1" max = " "><br>
+                    Any number:<input type = "number" id = "lastNumber" name = "userNumber3" min = "1" max = " "><br>
+                    <br><input type = "button" id = "submit" onclick = forSubmitButton() value = "Click here to submit">
+        </form>
+    </div>
+</body>

@@ -1,4 +1,10 @@
-function jstestFunction() {
-    var newsour = document.getElementById("sourname").value;
-    alert ("Thank you for your input on " + sourname + "!"<br> "Cheers!");
+function submit() {
+    console.log('here');
+    // var beerName = "";
+    // beerName=document.getElementById("sourname").value;
+    // alert ("Thank you for your input on " + beerName + "!"<br> "Cheers!");
+    // return true;
 }
+
+const form = document.querySelector("#survey-form");
+form.addEventListener('submit', submit);

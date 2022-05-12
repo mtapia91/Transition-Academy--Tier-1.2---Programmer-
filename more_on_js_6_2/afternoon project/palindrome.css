@@ -1,29 +1,39 @@
+title {
+    text-align: center;
+}
+
 body {
-    color: #E7F3EF;
     text-align: center;
-}
-
-h2 {
-    color: #79BEA8;
-    text-align: center;
-}
-
-h4 {
-    color: #448D76;
-    text-align: center;
-}
-
-.thisFlexboxRow {
-    color: #23483C;
-    text-align: center;
-}
-
-.thisFlexboxColumn {
-    color: #093426;
-    text-align: center;
+    background-color: #71d4c7;
 }
 
 .myForm {
-    color: #448D76;
     text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.thisFlexboxRow {
+    text-align: center;
+    background-color:rgb(79, 72, 47);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* split into three equal columns */
+.thisFlexboxColumn {
+    display: flex;
+    background-color:rgb(79, 72, 47);
+    flex: 40% 20% 20%;
+    padding: 20px;
+    flex-direction: column;
+}
+/* Media query - on screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+      flex-direction: column;
+    }
 }

@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="survey.css">
 
-    <script src="survey.js"></script>
 
 </head>
 
@@ -22,13 +21,14 @@
         </header>
         <hr>
         <hr>
-        <form id="survery-form" onsubmit="jstestFunction()">
+  
+        <form id="survey-form" method="post">
             <div class="form group">
-                <label for="sourname">What was the name of the sour? </label>
+                <label>What was the name of the sour? </label>
                     <input type="text" name="sourname" placeholder="Enter Name Here" required/>
                 <br>
                 <br>
-
+<!-- 
                 <label for="brewery">Please enter the brewery name? </label>
                     <input type="text" name="brewery" placeholder="Enter Name Here" required/>
                 <br>
@@ -82,13 +82,15 @@
                     <label for="styleOpt6">Oud Bruin</label>
                     <br>
                     <br>
-                    
-                    <div class="form-group"> 
-                        <button type="submit" id="submit" class="submit-button">Submit your responses.</button>
-                    </div>
-                </label>
+                    <br>
+                </div>
+                </label> -->
             </div>
+            <button type="submit" 
+            >Click here to submit</button>        
         </form>    
     </div>
+    <script src="survey.js"></script>
+
 </body>
 </html>
