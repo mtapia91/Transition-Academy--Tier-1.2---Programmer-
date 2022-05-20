@@ -17,22 +17,24 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-5">
-      <h3 label for="movieorshowoption" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-        Would you like a quote<br>from a movie or show?</h3><br>
+      <h3 label for="movieorshowoption" 
+      style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        Make your selections below</h3><br>
         <p>
-          <select name="movieorshowoption" id="movieorshowoption">
-            <option value="quote?censored">Censored</option>
-            <option value="quote/">Not Censored</option>
+          Select movie or show from the dropdown, please.
+          <br>
+          <select name="movieorshow" id="movieorshow">
+            <option value="movie">Movie</option>
+            <option value="show">Show</option>
           </select>
-            <input type="submit" value="submit" onclick="getQuotes()">
+            <!-- <input type="submit" value="submit" onclick="getMovieOrShow()"> -->
         </p>
-        Would you like a quote<br>from a specific movie or show?</h3><br>
+        Would you like a quote<br>from a specific movie or show?</h3>
+        <br>
         <p>
-          <select name="showslug" id="showslug">
-            <option value="shows/mindhunter/">Mindhunter</option>
-            <option value="shows/true-detective/">True Detective</option>
+          <select name="slug" id="slug">
           </select>
-            <input type="submit" value="submit" onclick="getShowQuote()">
+            <input type="submit" value="submit" onclick="getQuote()">
         </p>
     </div>
     <div class="col-sm-7">
