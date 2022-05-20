@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacon Ipsum</title>
+    <meta name="project" content="Week 6 Day 5 Competency Project">
+
+    <link rel="stylesheet" href="bacon.css">
+
+</head>
+<body>
+    <h1>Bacon Ipsum API Project</h1>
+        <div class="flexboxRow"><!-- This will create one row for box -->
+            <div class="firstFlexboxColumn"><!-- This initial column will request input -->
+                <h3>Please choose the amount of paragraphs you'd like. </h3>
+                <label for="numberOfParagraphs">Amount of paragraphs: </label>
+                <select id="numberOfParagraphs" name="numberOfParagraphs">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <br>
+                <input type="button" value="Get Bacon!" onclick="getBacon()">
+            </div>
+            <div class="secondFlexboxColumn">
+                <h3>Bacon Paragraphs (unformatted)</h3>
+                <p id="rawBacon">[Awaiting bacon fetch to change this text to unformatted JSON data]</p>
+            </div>
+            <div class="thirdFlexboxColumn">
+                <h3>Bacon Paragraphs (formatted)</h3>
+                <p id="cookedBacon">[Awaiting bacon fetch to change this text to formatted JSON data]</p>
+            </div>
+    </div>
+    <script src="bacon.js"></script>
+</body>
+</html>

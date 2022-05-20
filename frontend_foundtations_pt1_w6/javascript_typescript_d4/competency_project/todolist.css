@@ -1,6 +1,14 @@
+body
+{
+ background-color: gray;   
+}
+
 .flexboxRow {
     display: flex;
+    width: 400px;
     flex-wrap: wrap;
+    flex-flow: row;
+
 }
 
 .firstFlexboxColumn {
@@ -8,7 +16,7 @@
     flex-basis: 100%;
     width: 0;
     padding: 20px;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .firstFlexboxColumn {
@@ -16,6 +24,7 @@
     background-color: #EBF7E3;
     flex: auto;
     flex-direction: column;
+    flex-shrink: 3;
 }
 
 .secondFlexboxColumn {

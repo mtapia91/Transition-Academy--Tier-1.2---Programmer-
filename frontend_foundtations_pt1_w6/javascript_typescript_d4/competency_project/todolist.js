@@ -1,8 +1,7 @@
-var theNewWordString = document.forms["myForm"]["addToList"].value;
-var theNewWord;
 function validateANDAdd() {
+    var theNewWordString = document.forms["addToListForm"]["addToList"].value;
     //set function (method) variables
-    if (theNewWord == " ") {
+    if (theNewWordString == " ") {
         //word was not entered; let user know
         alert("Please enter a word");
         return false;
@@ -10,15 +9,14 @@ function validateANDAdd() {
     //adds users entry to list
     else {
         var table = document.getElementById("runningList");
-        var row = table.insertRow(0);
-        (table.insertRow(table.rows.length)).innerHTML = theNewWord;
+        (table.insertRow(table.rows.length)).innerHTML = theNewWordString;
     }
     //erase form fields
-    document.forms["myForm"]["newWord"].value = " ";
-    document.forms["myForm"]["newNumber"].value = " ";
+    document.forms["runningList"]["newWord"].value = " ";
     return true;
 }
 function deleteToDoList() {
     //clear table of all rows
-    var clearList1 = document.forms["wordList"].value = "";
+    var clearList1 = document.forms["runningList"].value == " ";
+    clearList1;
 }

@@ -1,0 +1,20 @@
+body {
+    background-color: darkgray;
+}
+
+.flexboxRow {
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.firstFlexboxColumn {
+    flex: auto;
+}
+
+.secondFlexboxColumn {
+    flex: auto;
+}
+
+.thirdFlexboxColumn {
+    flex: auto;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.flexboxRow {
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.firstFlexboxColumn {
+    flex: auto;
+    width: 40%;    
+}
+
+.secondFlexboxColumn {
+    flex: auto;
+    width: 60%;    
+}
+
+h1 {
+    text-align: center;    
+}
