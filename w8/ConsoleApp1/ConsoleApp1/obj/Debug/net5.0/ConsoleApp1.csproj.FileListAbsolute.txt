@@ -1,0 +1,5 @@
+C:\Users\MTapia\Desktop\NeDL\Tier 1.2 - Programmer\w8\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\MTapia\Desktop\NeDL\Tier 1.2 - Programmer\w8\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTapia\Desktop\NeDL\Tier 1.2 - Programmer\w8\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\MTapia\Desktop\NeDL\Tier 1.2 - Programmer\w8\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\MTapia\Desktop\NeDL\Tier 1.2 - Programmer\w8\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache

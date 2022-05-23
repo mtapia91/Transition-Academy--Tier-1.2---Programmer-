@@ -13,28 +13,23 @@
 <div class="container p-5 bg-primary text-white text-center">
   <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Random Movie/Show Quote</h1>
 </div>
-  
+
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-5">
-      <h3 label for="movieorshowoption" 
-      style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-        Make your selections below</h3><br>
-        <p>
-          Select movie or show from the dropdown, please.
-          <br>
-          <select name="movieorshow" id="movieorshow">
-            <option value="movie">Movie</option>
-            <option value="show">Show</option>
+      <h3 label for="censoredornot" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        Would you like a quote<br>from a movie or show?</h3><br>
+        <p>Censored or uncensored?<br>
+          <select name="censoredornot" id="censoredornot">
+            <option value="quote?censored">Censored</option>
+            <option value="quote/">Uncensored</option>
+          </select><br>
+        Would you like a quote from<br>a specific movie or show?</h3><br>
+          <select name="programs" id="programs">
+              <option value="programList"></option>
+            </optgroup>
           </select>
-            <!-- <input type="submit" value="submit" onclick="getMovieOrShow()"> -->
-        </p>
-        Would you like a quote<br>from a specific movie or show?</h3>
-        <br>
-        <p>
-          <select name="slug" id="slug">
-          </select>
-            <input type="submit" value="submit" onclick="getQuote()">
+            <input type="submit" value="submit" onclick="getQuotes()">
         </p>
     </div>
     <div class="col-sm-7">
@@ -42,23 +37,23 @@
         Random Quote Below</h3><br>
           <h5 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
           QUOTE </h5>
-        <blockquote 
-              style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" 
-              style="text-align:right;" 
+        <blockquote
+              style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+              style="text-align:right;"
               id="theQuote"><br>
         </blockquote>
           <h5 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
           MOVIE or SHOW </h5>
-        <blockquote 
-              style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" 
-              style="text-align:right;" 
+        <blockquote
+              style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+              style="text-align:right;"
               id="theSelection"><br>
         </blockquote>
           <h5 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
           CHARACTER </h5>
-        <blockquote 
-          style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" 
-          style="text-align:right;" 
+        <blockquote
+          style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+          style="text-align:right;"
           id="theRole"><br>
         </blockquote>
     <br><br><br></p>
@@ -68,4 +63,3 @@
 
 </body>
 </html>
-

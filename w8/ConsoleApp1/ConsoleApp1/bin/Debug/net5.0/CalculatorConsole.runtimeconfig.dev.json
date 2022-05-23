@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\MTapia\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MTapia\\.nuget\\packages"
+    ]
+  }
+}
