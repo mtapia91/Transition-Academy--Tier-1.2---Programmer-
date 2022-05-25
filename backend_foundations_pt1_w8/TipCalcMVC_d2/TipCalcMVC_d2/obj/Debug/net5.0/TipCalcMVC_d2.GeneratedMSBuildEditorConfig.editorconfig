@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TipCalcMVC_d2
+build_property.ProjectDir = C:\Users\MTapia\Desktop\NeDL\Tier 1.2 - Programmer\backend_foundations_pt1_w8\TipCalcMVC_d2\TipCalcMVC_d2\

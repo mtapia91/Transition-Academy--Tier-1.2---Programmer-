@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TipCalcMVC_d2/1.0.0": {
+        "runtime": {
+          "TipCalcMVC_d2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TipCalcMVC_d2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
