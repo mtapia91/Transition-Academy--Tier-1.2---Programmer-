@@ -13,7 +13,7 @@ namespace BankAccountMVC
             annualSavingsFee = 0.0;
         }
         // ====vvv==== constructor w/ parameters ====vvv==== \\
-        public Savings(string newAccountHolderName, string newAccountType, string newAccountNumber, double newBalance, double newAnnualSavingsFee) : base(newAccountHolderName, newAccountType, newAccountNumber, newBalance)
+        public Savings(string newAccountHolderName, string newAccountType, string newAccountNumber, double newAccountBalance, double newAnnualSavingsFee) : base(newAccountHolderName, newAccountType, newAccountNumber, newAccountBalance)
         {
             annualSavingsFee = newAnnualSavingsFee;
         }
@@ -29,7 +29,7 @@ namespace BankAccountMVC
 
         public override string ToString()      // base ToString + savings class ToString
         {
-            return base.ToString() + "\nSavings annual fee: $"; //+ annualSavingsFee + "\nAnnual interest: " + CalculateInterest;
+            return base.ToString() + "\nSavings annual fee: $" + annualSavingsFee + "\nAnnual interest: " + CalculateInterest();
         }
 
         //TODO base ToString + savings class ToString
