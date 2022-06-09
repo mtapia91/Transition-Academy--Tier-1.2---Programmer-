@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Concerts at Pinnacle Bank Arena CRUD</title>
+    <title>Events at Pinnacle Bank Arena CRUD</title>
     <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
@@ -33,8 +33,8 @@
         <input type="submit" value="Delete">
     </form>
 
-    <div id="editForm">
-        <h3>Edit</h3>
+    <div id="updateForm">
+        <h3>Update</h3>
         <form action="javascript:void(0);" onsubmit="displayEditForm()">
             <input type="hidden" id="edit-id">
             <input type="text" id="edit-date" placeholder="Edit Date">
@@ -48,7 +48,7 @@
     <p id="counter"></p>
     <table>
         <tr>
-            <th>Concerts</th>
+            <th>Events Concerts List</th>
         </tr>
         <tbody id="concerts"></tbody>
     </table>

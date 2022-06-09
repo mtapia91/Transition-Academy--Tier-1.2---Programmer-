@@ -53,11 +53,10 @@ function deleteItem() {
 
 function displayEditForm(id) {
     const item = concerts.find(item => item.id === id);
-
     document.getElementById('edit-date').value = item.date;
     document.getElementById('edit-price').value = item.price;
     document.getElementById('edit-artist').value = item.artist;
-    document.getElementById('editForm').style.display = 'block';
+    document.getElementById('updateForm').style.display = 'block';
 }
 
 function updateItem() {
@@ -86,7 +85,7 @@ function updateItem() {
 }
 
 function closeInput() {
-    document.getElementById('editForm').style.display = 'none';
+    document.getElementById('updateForm').style.display = 'none';
 }
 
 function _displayCount(itemCount) {
@@ -106,7 +105,7 @@ function _displayItems(data) {
     data.forEach(item => {
 
         let editButton = button.cloneNode(false);
-        editButton.innerText = 'Edit';
+        editButton.innerText = 'Update';
         editButton.setAttribute('onclick', `displayEditForm(${item.id})`);
 
         let deleteButton = button.cloneNode(false);
