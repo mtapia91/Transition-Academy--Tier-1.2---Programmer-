@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Concerts at Pinnacle Bank Arena CRUD</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Concerts at Pinnacle Bank Arena CRUD</h1>
+    <h3>Create</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-date" placeholder="Date Of Event"><br />
+        <input type="text" id="add-price" placeholder="Price ($)"><br />
+        <input type="text" id="add-artist" placeholder="Performing Artist"><br />
+        <input type="submit" value="Create">
+    </form>
+
+    <h3>Read</h3>
+    <input type="button" method="GET" value="Read" onclick="getItems()">
+
+
+    <h3>Update</h3>
+    <form action="javascript:void(0);" onsubmit="updateItem()"> <!--missing HTTP method-->
+        <input type="text" id="add-date" placeholder="Date Of Event"><br />
+        <input type="text" id="add-price" placeholder="Price ($)"><br />
+        <input type="text" id="add-artist" placeholder="Performing Artist"><br />
+        <input type="submit" value="Update">
+    </form>
+
+    <h3>Delete</h3>
+    <form action="javascript:void(0);" onsubmit="deleteItem()"> <!--missing HTTP method-->
+        <input type="text" id="delete" placeholder="Provide Event ID">
+        <input type="submit" value="Delete">
+    </form>
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="displayEditForm()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-date" placeholder="Edit Date">
+            <input type="text" id="edit-price" placeholder="Edit Price">
+            <input type="text" id="edit-artist" placeholder="Edit Artist">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+    <table>
+        <tr>
+            <th>Concerts</th>
+        </tr>
+        <tbody id="concerts"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>

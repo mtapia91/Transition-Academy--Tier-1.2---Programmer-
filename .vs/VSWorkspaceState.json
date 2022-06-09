@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend_foundations_pt1_w8",
-    "\\backend_foundations_pt1_w8\\MVCTipCalc_d2",
-    "\\backend_foundations_pt1_w8\\MVCTipCalc_d2\\MVCTipCalc_d2"
+    "\\backend foundations_pt2_w9",
+    "\\backend foundations_pt2_w9\\TodoApi",
+    "\\backend foundations_pt2_w9\\TodoApi\\wwwroot"
   ],
-  "SelectedNode": "\\backend_foundations_pt1_w8\\MVCTipCalc_d2\\MVCTipCalc_d2.sln",
+  "SelectedNode": "\\backend foundations_pt2_w9\\TodoApi\\wwwroot\\index.html",
   "PreviewInSolutionExplorer": false
 }
