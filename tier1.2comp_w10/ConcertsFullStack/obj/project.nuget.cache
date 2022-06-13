@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SQ64eeRfVJTFIjjCgOCC6G0m4L4c9XsOqLVpdu4PNL5Uog+VamgPwarfeQuf+Cu0F3VsbDsgYBAqPdcG+L2hYg==",
+  "dgSpecHash": "pIwg9S3mOKR/bL+rxXsp+uzg+ugMNs4dHCPIdgXBa3fsVNHmaGY7VSVzpBovrlyvIMN6NpI+K6ddhMT6DAO0zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj",
+  "projectFilePath": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MTapia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MTapia\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

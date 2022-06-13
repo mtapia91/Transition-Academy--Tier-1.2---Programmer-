@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z7pOpshNIuFa/NPahyFof43ZFvsGOXtdvvuA8nCn72k=",
+  "Hash": "H4Gd/JrMwqzoPPwEI/B0C6DxeQAsUo6LZejVp3pTIjg=",
   "Source": "ConcertsFullStack",
   "BasePath": "_content/ConcertsFullStack",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ConcertsFullStack\\wwwroot",
       "Source": "ConcertsFullStack",
-      "ContentRoot": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
       "BasePath": "_content/ConcertsFullStack",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\css\\site.css",
       "SourceId": "ConcertsFullStack",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
       "BasePath": "_content/ConcertsFullStack",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\index.html",
       "SourceId": "ConcertsFullStack",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
       "BasePath": "_content/ConcertsFullStack",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\js\\site.js",
       "SourceId": "ConcertsFullStack",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\wwwroot\\",
       "BasePath": "_content/ConcertsFullStack",
       "RelativePath": "js/site.js",
       "AssetKind": "All",

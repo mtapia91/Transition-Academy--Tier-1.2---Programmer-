@@ -16,42 +16,32 @@
     </form>
 
     <h3>Read</h3>
-    <input type="button" method="GET" value="Read" onclick="getItems()">
 
-
-    <h3>Update</h3>
-    <form action="javascript:void(0);" onsubmit="updateItem()"> <!--missing HTTP method-->
-        <input type="text" id="add-date" placeholder="Date Of Event"><br />
-        <input type="text" id="add-price" placeholder="Price ($)"><br />
-        <input type="text" id="add-artist" placeholder="Performing Artist"><br />
-        <input type="submit" value="Update">
-    </form>
-
-    <h3>Delete</h3>
-    <form action="javascript:void(0);" onsubmit="deleteItem()"> <!--missing HTTP method-->
-        <input type="text" id="delete" placeholder="Provide Event ID">
-        <input type="submit" value="Delete">
-    </form>
-
+    <p id="counter"></p>
+    <table>
+        <tr>
+            <th>List</th>
+        </tr>
+        <tbody id="concerts"></tbody>
+    </table>
+    
     <div id="updateForm">
         <h3>Update</h3>
-        <form action="javascript:void(0);" onsubmit="displayEditForm()">
+        <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
-            <input type="text" id="edit-date" placeholder="Edit Date">
-            <input type="text" id="edit-price" placeholder="Edit Price">
-            <input type="text" id="edit-artist" placeholder="Edit Artist">
+            <input type="text" id="update-date" placeholder="Update Date"><br />
+            <input type="text" id="update-price" placeholder="Update Price"><br />
+            <input type="text" id="update-artist" placeholder="Update Artist"><br />
             <input type="submit" value="Save">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
 
-    <p id="counter"></p>
-    <table>
-        <tr>
-            <th>Events Concerts List</th>
-        </tr>
-        <tbody id="concerts"></tbody>
-    </table>
+    <h3>Delete</h3>
+    <form action="javascript:void(0);" onsubmit="deleteItem()">
+        <input type="text" id="delete" placeholder="Provide Event ID">
+        <input type="submit" value="Delete">
+    </form>
 
     <script src="js/site.js" asp-append-version="true"></script>
     <script type="text/javascript">

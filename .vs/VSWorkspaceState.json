@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend foundations_pt2_w9",
-    "\\backend foundations_pt2_w9\\TodoApi",
-    "\\backend foundations_pt2_w9\\TodoApi\\wwwroot"
+    "\\tier1.2comp_w10",
+    "\\tier1.2comp_w10\\ConcertsFullStack"
   ],
-  "SelectedNode": "\\backend foundations_pt2_w9\\TodoApi\\wwwroot\\index.html",
+  "SelectedNode": "\\tier1.2comp_w10\\ConcertsFullStack\\Controllers",
   "PreviewInSolutionExplorer": false
 }

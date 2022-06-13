@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj": {}
+    "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj": {
+    "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj",
+        "projectUniqueName": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj",
         "projectName": "ConcertsFullStack",
-        "projectPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj",
+        "projectPath": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\ConcertsFullStack.csproj",
         "packagesPath": "C:\\Users\\MTapia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MTapia\\Desktop\\NeDL\\Tier 1.2 - Programmer\\tier1.2comp_w10\\ConcertsFullStack\\obj\\",
+        "outputPath": "C:\\Users\\MTapia\\source\\repos\\mtapia91\\Transition-Academy--Tier-1.2---Programmer-\\tier1.2comp_w10\\ConcertsFullStack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MTapia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

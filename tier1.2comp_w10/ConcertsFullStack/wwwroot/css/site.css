@@ -9,15 +9,19 @@
 table {
     font-family: Arial, sans-serif;
     border: 1px solid;
+    width: 50%;
     border-collapse: collapse;
+    text-align: left;
 }
 
 th {
     background-color: #f8f8f8;
-    padding: 5px;
+    padding: 8px;
 }
 
 td {
+
     border: 1px solid;
-    padding: 5px;
+    vertical-align: middle;
+    padding: 8px;
 }
